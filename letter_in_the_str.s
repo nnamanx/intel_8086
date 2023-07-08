@@ -16,7 +16,7 @@ set 0x1             ; segment 2
 LETTER: DB "H"      ; storing the letter
 
 set 0x2
-RESULT:DB [0,1]     ; store space for final data. Will turn 1 if the letter exists
+RESULT:DB [0,1]     ; store space for final data. Will turn 1 if the letter exists 
 
 start:
 
